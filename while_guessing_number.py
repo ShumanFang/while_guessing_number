@@ -1,5 +1,9 @@
 import random 
-r = random.randint(1, 100)
+a = input('please enter your lower range: ')
+b = input('please enter your upper range: ')
+a = int(a)
+b = int(b)
+r = random.randint(a, b)
 i = 0
 while True:
 	i = i + 1 #same as: i += 1
